@@ -1,0 +1,21 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /loginJSON                --> main.main.func1 (3 handlers)
+[GIN-debug] GET    /user/:name               --> main.main.func2 (3 handlers)
+[GIN-debug] GET    /user/:name/*action       --> main.main.func3 (3 handlers)
+[GIN-debug] POST   /user/:name/*action       --> main.main.func4 (3 handlers)
+[GIN-debug] GET    /welcome                  --> main.main.func5 (3 handlers)
+[GIN-debug] POST   /form_post                --> main.main.func6 (3 handlers)
+[GIN-debug] POST   /post                     --> main.main.func7 (3 handlers)
+[GIN-debug] POST   /post2                    --> main.main.func8 (3 handlers)
+[GIN-debug] POST   /upload                   --> main.main.func9 (3 handlers)
+[GIN-debug] POST   /multi_upload             --> main.main.func10 (3 handlers)
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2019/08/15 - 17:34:58 | 200 |            0s |             ::1 | POST     /loginJSON
+[GIN] 2019/08/15 - 17:35:28 | 400 |            0s |             ::1 | POST     /loginJSON
+[GIN] 2019/08/15 - 17:35:44 | 401 |            0s |             ::1 | POST     /loginJSON
